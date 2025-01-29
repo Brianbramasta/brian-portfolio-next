@@ -14,6 +14,7 @@ export default function Sidebar() {
             alt="Brian Bramasta"
             width={150}
             height={150}
+            className="profile-image"
             style={{ 
               width: '150px',
               height: '150px',
@@ -119,4 +120,4 @@ export default function Sidebar() {
       </div>
     </aside>
   )
-} 
+}
