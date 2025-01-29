@@ -17,3 +17,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
