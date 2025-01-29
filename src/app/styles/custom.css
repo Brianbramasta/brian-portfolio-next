@@ -1,0 +1,57 @@
+.avatar-box img {
+  background-color: #7C7B7B;
+  border-radius: 30px;
+}
+
+.experience ul li::before, .education ul li::before {
+  content: '•';
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.skills.active .wrap-image {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.wrap-image img {
+  width: 40px;
+  height: max-content;
+  -webkit-filter: grayscale(100%);
+}
+
+.image-wraper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 130px;
+  cursor: pointer;
+}
+
+.image-wraper .text-image {
+  color: white;
+  max-width: 85px;
+  font-size: 14px;
+}
+
+.wrap-image .image-wraper:hover img {
+  -webkit-filter: unset;
+}
+
+.wrap-image .image-wraper:hover .text-image {
+  color: hsl(35, 100%, 68%);
+}
+
+.resume-btn {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 720px) {
+  .avatar-box img {
+    background-color: #7C7B7B;
+    border-radius: 20px;
+  }
+} 
